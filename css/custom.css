@@ -1,0 +1,43 @@
+body{
+background-image: url("../img/map.png");
+background-color: white;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+background-repeat: no-repeat; 
+}
+
+.color{	
+	background-color:lightblue;
+	color: black;
+	opacity: 0.9;
+}
+
+.navbar{
+    color: black;
+    background-color: white;
+}
+
+.settings{
+    background-color: white;
+    width: auto;
+}
+
+.glyphicon-black {
+    color: black;   
+}
+
+.center{
+    border-radius: 5px;
+    width: 50%;
+    margin: 0px auto;
+    float: none;
+}
+
+.login{
+    background-color: white;
+    width: 400px;
+    border-style: solid;
+    padding-bottom: 10px;
+}
