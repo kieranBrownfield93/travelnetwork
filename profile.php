@@ -73,7 +73,7 @@ $result2 = $mysqli->query($sql2);
                 <ul class="nav navbar-nav pull-right">
                     <li><a href="#"><?php if(isset($_SESSION['username'])) { echo "Welcome " .$_SESSION['username']; } ?></a> </li>
                 <li><a href="logout.php">Logout</a></li>
-                <li><a href="settings.php" class="glyphicon glyphicon-cog"></a></li>
+                <li><a href="edit.php" class="glyphicon glyphicon-cog"></a></li>
                 </ul>
             </div>
             <!-- /.navbar-collapse -->
