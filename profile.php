@@ -80,7 +80,6 @@ $result2 = $mysqli->query($sql2);
         </div>
         <!-- /.container -->
     </nav>
-    <p>jenny</p>
         
          <div class="container">
             <div class="row">
