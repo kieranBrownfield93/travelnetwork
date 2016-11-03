@@ -89,6 +89,8 @@ if(isset($sql)){
         </div>
         <!-- /.container -->
     </nav>
+    
+    John
     <body>
         <form method="post">
             <label>Username:</label><input type="text" name="username" value="<?php echo $row['username']; ?>"> <br />
