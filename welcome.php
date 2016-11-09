@@ -92,10 +92,12 @@ $result = $mysqli->query($sql);
                 while($row = $result->fetch_assoc()){
                     ?>
             <tr class="color">
-                <td><?php echo " " . $row['username'] . " " . $row['post_date']; ?></td>
+                <td><img src="images/profile.jpg" style="height: 40px; width:30px;"></td>
+                <td><?php echo " " . $row['username']; ?></td>
+                <td><?php echo " " . $row['post']; ?></td>
             </tr>
             <tr class="color">
-                <td><?php echo " " . $row['post']; ?></td>
+                <td><button class="primary">Comment</button></td>
             </tr>
             <tr><td></td></tr>
             <?php
