@@ -113,6 +113,21 @@ $result2 = $mysqli->query($sql2);
             }
             ?>
             </table>
+                <div>
+                    <table>
+                         <h3 style="margin-left: 10px;">Connections</h3>
+                            <tr>
+                                <td><img src="images/circle.svg" style="height: 60px; width: 60px;"></td>
+                                <td><img src="images/circle.svg" style="height: 60px; width: 60px;"></td>
+                                <td><img src="images/circle.svg" style="height: 60px; width: 60px;"></td>
+                            </tr>
+                            <tr>
+                                <td><img src="images/circle.svg" style="height: 60px; width: 60px;"></td>
+                                <td><img src="images/circle.svg" style="height: 60px; width: 60px;"></td>
+                                <td><img src="images/circle.svg" style="height: 60px; width: 60px;"></td>
+                            </tr>
+                    </table>
+                </div>
                 </div>
                 <div class="col-md-8 color">
                 <h3 class="text-center"><?php echo $_SESSION['username'] . "'s". " " ?>Timeline</h3>
